@@ -10,6 +10,7 @@ body {
 }
 
 #container {
+    /* min-height: 100vh; > conseillé pour adaptation aux composant qui viendront se rajouter */
     height: 100vh;
     background: rgba(68, 117, 136, 0.548);
     display: flex;
@@ -21,7 +22,9 @@ body {
     width: 300px;
     margin: 10px;
     box-shadow: 10px 10px 20px black;
-    /* border-radius: 10px; */
+    border-radius: 10px;
+    overflow: hidden;
+    /* cacher l'overflow des enfants, qui prennent 100% du contenu */
 }
 
 .card-header {
