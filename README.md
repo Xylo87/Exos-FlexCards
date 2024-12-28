@@ -13,7 +13,8 @@ Connexion à **Google Fonts** et à **Font Awesome** pour des ajouts de typograp
 ## 2. Fonctionnalités
 - Changement fluide de couleur et de taille de l'entête de la carte au passage de la souris par l'utilisateur
 
-```.card-header img {
+```
+.card-header img {
     filter: grayscale(1);
     transition: 300ms;
 }
@@ -26,7 +27,8 @@ Connexion à **Google Fonts** et à **Font Awesome** pour des ajouts de typograp
 
 - Apparition fluide d'une icône type **Favori** cliquable au passage de la souris par l'utilisateur
 
-```.heart {
+```
+.heart {
     position: absolute;
     top: 0;
     left: -40px;
